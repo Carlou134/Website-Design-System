@@ -68,7 +68,6 @@ p{
 
 .navbar {
     background-color: #343A40 ;
-    color: #FFFFFF;
     display: flex;
     justify-content: flex-end;
 }
@@ -80,6 +79,17 @@ p{
 .navbar ul li{
     padding: 40px;
     list-style: none;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFD700;
+    background-color: #212529;
+    cursor: pointer;
 }
 
 .colors{
