@@ -39,6 +39,9 @@ body {
   color: #333;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   grid-template-areas: "header header" "main main" "footer footer";
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header{
@@ -47,6 +50,7 @@ header{
 
 main{
     grid-area: main;
+    flex: 1;
 }
 
 h1 {
